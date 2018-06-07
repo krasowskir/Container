@@ -11,7 +11,7 @@ public class App
     public static void main( String[] args )
     {
 	ApplicationContext context = new AnnotationConfigApplicationContext("com.richard.home");
-	Player richard = (Player)context.getBean("richard");
+	Player richard = (Player)context.getBean(Player.class);
 //        for (int i = 0; i < 50000; i++){
 //            	
 ////            Player richard = new Player("richard", 26);
